@@ -18,7 +18,7 @@ sudo ip netns exec client1 ping -c 2 192.0.2.194
 
 echo ""
 
-echo "----- CLIENT1, CLIENT2 and SERVER PING TO 8.8.8.8 (NOT ALLOWED)-----"
+echo "----- CLIENT1, CLIENT2 and SERVER PING TO 8.8.8.8 -----"
 sudo ip netns exec client1 ping -c 2 8.8.8.8
 echo ""
 sudo ip netns exec client2 ping -c 2 8.8.8.8
